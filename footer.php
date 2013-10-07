@@ -1,6 +1,3 @@
-			</div>
-		</div>
-	</div>
 
 	<!-- Footer -->
 	<div class="full-width" id="footer">

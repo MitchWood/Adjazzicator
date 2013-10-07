@@ -1,18 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Adjudicator Portal | Documents</title>
-	<link rel="stylesheet" type="text/css" href="stylesheets/base.css"/>
-	<link rel="stylesheet" type="text/css" href="stylesheets/skeleton.css"/>
-	<link rel="stylesheet" type="text/css" href="stylesheets/layout.css"/>
-</head>
-<body>
-	
+<?php 
+	$title = 'Adjudicator Portal | Documents';
+	include "header.php";
+
+	include "verifylogin.php"
+?>
+
 	<?php include "login_button.php" ?>
 
 	<div class="container row">
-		<div class="sixteen columns header short">
+		<div class="sixteen columns header">
 			<div class="title short">Documents</div>
 		</div>
 	</div>
@@ -49,16 +45,6 @@
 		<a href="documents/RecorderInstructions.pdf">
 			<div class="sixteen columns listElement">
 				<div class="listElementText">Audio Recorder Instructions</div>
-			</div>
-		</a>
-		<a href="documents/">
-			<div class="sixteen columns listElement">
-				<div class="listElementText">Document Five</div>
-			</div>
-		</a>
-		<a href="documents/">
-			<div class="sixteen columns listElement">
-				<div class="listElementText">Document Six</div>
 			</div>
 		</a>
 	</div>

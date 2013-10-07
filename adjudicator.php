@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Adjudicator Portal | Home</title>
-	<link rel="stylesheet" type="text/css" href="stylesheets/base.css"/>
-	<link rel="stylesheet" type="text/css" href="stylesheets/skeleton.css"/>
-	<link rel="stylesheet" type="text/css" href="stylesheets/layout.css"/>
-</head>
-<body>
-	
+<?php 
+	$title = 'Adjudicator Portal | Documents';
+	include "header.php";
+
+	include "verifylogin.php"
+?>
+
 	<?php include "login_button.php" ?>
 
 	<div class="container row">

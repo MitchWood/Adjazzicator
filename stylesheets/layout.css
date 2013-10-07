@@ -2,16 +2,31 @@ html, body {
 	height: 100%;
 }
 
+/* Login Stuff */
+
 #loginButton {
 	margin-top: 10px;
 	float: right;
 	font-size: 20px;
 }
 
+.loginForm {
+	padding: 20px 0px;
+	font-size: 20px;
+	background: #FFF;
+	text-align: center;
+}
+
+#loginSubmit {
+	margin: 20px;
+}
+
+
+/* Header */
+
 .header {
-	height: 80px;
-	margin-top: 40px;
-	padding-top: 20px;
+	margin-top: 20px;
+	padding: 25px 0px;
 	background-color: rgb(79, 138, 0);
 }
 
@@ -20,6 +35,9 @@ html, body {
 	font-size: 50px;
 	text-align: center;
 }
+
+
+/* Tiles */
 
 .tile {
 	text-align: center;
@@ -45,19 +63,20 @@ html, body {
 	font-size: 40px;
 }
 
+
+/* List styles */
+
 .listHeader {
-	height: 65px;
 	color: white;
 	background-color: rgb(99, 169, 0);
 }
 
 .listHeaderText {
- 	margin: 15px;
- 	font-size: 35px;
+ 	margin: 20px;
+ 	font-size: 40px;
 }
 
 .listElement {
-	height: 65px;
 	background: #FFF;
 	border-bottom: solid 1px #CCC;
 }
@@ -73,9 +92,12 @@ html, body {
 .listElementText {
 	color: black;
 	font-size: 35px;
-	margin: 15 px;
-	margin-left: 30px;
+	margin: 20px;
+	margin-left: 40px;
 }
+
+
+/* General */
 
 .email {
 	text-decoration: none;
@@ -99,18 +121,6 @@ html, body {
 		margin-bottom: 10px;
 	}
 
-	.header.short {
-		height: 80px;
-	}
-
-	.header {
-		height: 140px;
-	}
-	
-	.title {
-		font-size: 40px;
-	}
-
 	.tile {
 		margin-bottom: 20px !important;
 	}
@@ -124,7 +134,6 @@ html, body {
 
 	.header {
 		margin-top: 20px !important;
-		height: 130px;
 	}	
 
 	.tile {
@@ -140,23 +149,16 @@ html, body {
 		font-size: 30px;
 	}
 
-	.listHeader {
-		height: 140px;
-	}
-
 	.listHeaderText {
 		font-size: 50px;
 		margin-left: 20px;
 		margin-top: 20px;
 	}
 
-	.listElement {
-		height: 100px;
-	}
 	.listElementText {
 		font-size: 50px;
 		margin-left: 20px;
-		margin-top: 20px;
+		margin: 20px;
 	}
 
 	#calDate {
@@ -168,37 +170,12 @@ html, body {
 
 /* Tablet: Design for a width of 768px */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-	.header.short {
-		padding-top: 20px;
-		height: 80px;
-	}
-
-	.header {
-		padding-top: 25px;
-		height: 75px;
-	}
-	
-	.title.short {
-		font-size: 50px
-	}
-
-	.title {
-		font-size: 40px;
-	}
-
-	.listHeader {
-		height: 100px;
-	}
-
 	.listHeaderText {
 		font-size: 50px;
 		margin-left: 30px;
-		margin-top: 20px;
+		margin: 20px;
 	}
 
-	.listElement {
-		height: 100px;
-	}
 	.listElementText {
 		font-size: 50px;
 		margin-left: 30px;
