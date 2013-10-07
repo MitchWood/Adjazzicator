@@ -1,6 +1,7 @@
 <?php
+session_start();
 
-if(!session_is_registered(myusername)){
+if(!(isset($_SESSION['username']))){
 	header('location: login.php') ;
 } else {
 	header('location: adjudicator.php') ;

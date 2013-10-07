@@ -1,3 +1,4 @@
+
 <?php 
 	$title = 'Adjudicator Portal | Documents';
 	include "header.php";
@@ -5,7 +6,7 @@
 	include "verifylogin.php"
 ?>
 
-	<?php include "login_button.php" ?>
+	<?php include "logout_button.php" ?>
 
 	<div class="container row">
 		<div class="sixteen columns header">

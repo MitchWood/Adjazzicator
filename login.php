@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+
 <?php 
 	$title = 'UWEC Jazz Fest Login';
 	include "header.php";
@@ -10,7 +10,17 @@
 			<div class="title">Member Login</div>
 		</div>
 	</div>
-	<form name="form1" class="sixteen columns loginForm" method="post" action="checklogin.php">
+	<form name="form1" class="sixteen columns center-content loginForm" method="post" action="checklogin.php">
+		<?php
+			if(isset($_SESSION["errorMsg"])) {
+				$message=$_SESSION["errorMsg"]; ?>
+				<div class="error">
+					<?php echo($message); ?>
+				</div>
+				<?php 
+				unset($_SESSION["errorMsg"]);
+			}
+		?>
 		<div class="container row">
 			<div class="sixteen columns center-content">
 				<div>Username:</div>
