@@ -36,9 +36,10 @@
 				<div class="tileText">Settings</div>
 			</div>
 		</a>
-		<a href="">
+		<a href="awards.php">
 			<div class="tile eight columns">
-				
+				<img src="/images/trophy.png" class="tileImg"></img>
+				<div class="tileText">Awards</div>
 			</div>
 		</a>
 	</div>

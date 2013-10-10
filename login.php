@@ -11,6 +11,7 @@
 		</div>
 	</div>
 	<form name="form1" class="sixteen columns center-content loginForm" method="post" action="checklogin.php">
+		<!-- Error message div -->
 		<?php
 			if(isset($_SESSION["errorMsg"])) {
 				$message=$_SESSION["errorMsg"]; ?>
@@ -21,20 +22,21 @@
 				unset($_SESSION["errorMsg"]);
 			}
 		?>
-		<div class="container row">
-			<div class="sixteen columns center-content">
+		<!-- Inputs and submit button -->
+		<div class="row">
+			<div class="full-width center-content">
 				<div>Username:</div>
 				<div>
 					<input name="myusername" type="text" id="myusername" autofocus>
 				</div>
 			</div>
-			<div class="sixteen columns center-content">
+			<div class="full-width center-content">
 				<div>Password:</div>
 				<div>
 					<input name="mypassword" type="password" id="mypassword">
 				</div>
 			</div>
-			<div class="sixteen columns">
+			<div class="full-width">
 				<input type="submit" name="Submit" value="Login" id="loginSubmit">
 			</div>
 		</div>

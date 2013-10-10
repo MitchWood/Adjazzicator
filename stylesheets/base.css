@@ -202,10 +202,7 @@
 /* #Forms
 ================================================== */
 
-	form {
-		margin-bottom: 20px; }
-	fieldset {
-		margin-bottom: 20px; }
+
 	label {
 		display: inline-block;
 	}
@@ -221,7 +218,7 @@
 	/*span {line-height: 25px;}*/
 
 	input {
-		margin: 10px;
+		margin-top: 10px;
 		margin-bottom: 20px;
 		width: 200px;
 		height: 30px;

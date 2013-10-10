@@ -10,6 +10,9 @@
 	<link rel="stylesheet" type="text/css" href="stylesheets/skeleton.css"/>
 	<link rel="stylesheet" type="text/css" href="stylesheets/layout.css"/>
 
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+  	<!-- <script type="text/javascript" src="js/scripts.js"></script> -->
+
 	<title><?=$title;?></title>
 
 </head>
