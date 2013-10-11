@@ -6,7 +6,7 @@
 	include "verifylogin.php"
 ?>
 
-	<?php include "logout_button.php" ?>
+	<?php include "top_Buttons.php" ?>
 
 	<div class="container row">
 		<div class="sixteen columns header">

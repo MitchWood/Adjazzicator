@@ -1,12 +1,12 @@
 
 <?php 
-	$title = 'Adjudicator Portal | Documents';
+	$title = 'Adjudicator Portal | Home';
 	include "header.php";
 
 	include "verifylogin.php"
 ?>
 
-	<?php include "logout_button.php" ?>
+	<?php include "top_Buttons.php" ?>
 
 	<div class="container row">
 		<div class="sixteen columns header">

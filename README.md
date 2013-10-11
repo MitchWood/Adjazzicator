@@ -13,5 +13,11 @@ README
 
 AUTHORS
 
-     Mitch Wood, Nick Hasz, Christian Poynter, Andy Paffel, and Corey Feiock.
+     Project Manager: Mitch Wood
+     Business Analyst: Corey Feiock
+     Front End/UI: Christian Poynter
+     Back End/Logic: Nick Hasz 
+     Database: Andy Paffel
+     
+     
 

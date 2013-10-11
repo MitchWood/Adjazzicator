@@ -5,7 +5,7 @@ html, body {
 /* Login Stuff */
 
 #loginButton {
-	margin-top: 10px;
+	margin-top: 15px;
 	margin-right: 10px;
 	float: right;
 	font-size: 20px;
@@ -35,9 +35,23 @@ html, body {
 /* Header */
 
 .header {
-	margin-top: 20px;
+	margin-top: 10px;
 	padding: 25px 0px;
 	background-color: rgb(79, 138, 0);
+}
+
+.homeButton {
+	float: left;
+	width: 30px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.homeButtonText {
+	float: left;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: 15px;
 }
 
 .title {
@@ -167,6 +181,10 @@ div[id^=eventDetails] {
 		margin-bottom: 10px;
 	}
 
+	.header {
+		margin-top: 10px !important;
+	}
+
 	.tile {
 		margin-bottom: 20px !important;
 	}
@@ -184,7 +202,7 @@ div[id^=eventDetails] {
 	}
 
 	.header {
-		margin-top: 20px !important;
+		margin-top: 10px !important;
 	}	
 
 	.tile {
@@ -225,6 +243,7 @@ div[id^=eventDetails] {
 
 /* Tablet: Design for a width of 768px */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
+
 	.listHeaderText {
 		font-size: 50px;
 		margin-left: 30px;
