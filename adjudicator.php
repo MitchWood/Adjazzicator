@@ -10,7 +10,7 @@
 
 	<div class="container row">
 		<div class="sixteen columns header">
-			<div class="title">Welcome to the Adjudicator Portal</div>
+			<div class="title">Adjudicator Portal</div>
 		</div>
 	</div>
 

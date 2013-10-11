@@ -4,13 +4,6 @@ html, body {
 
 /* Login Stuff */
 
-#loginButton {
-	margin-top: 15px;
-	margin-right: 10px;
-	float: right;
-	font-size: 20px;
-}
-
 .loginForm {
 	padding: 20px 0px;
 	font-size: 20px;
@@ -52,6 +45,20 @@ html, body {
 	font-size: 20px;
 	margin-left: 10px;
 	margin-top: 15px;
+}
+
+.logoutButtonText {
+	margin-top: 15px;
+	margin-right: 10px;
+	float: right;
+	font-size: 20px;
+}
+
+.logoutButton {
+	float: right;
+	width: 25px;
+	margin-top: 10px;
+	margin-right: 10px;
 }
 
 .title {
